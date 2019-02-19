@@ -9,7 +9,7 @@ type Props = {
 
 function Link(props: Props & WithStylesProps) {
   return (
-    <a {...css(props.styles.link)} href={props.href}>{props.children}</a>
+    <a {...css(props.styles.link)} href={props.href} target="_blank">{props.children}</a>
   );
 }
 
