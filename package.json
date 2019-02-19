@@ -7,9 +7,18 @@
     "@types/node": "11.9.4",
     "@types/react": "16.8.3",
     "@types/react-dom": "16.8.2",
+    "aphrodite": "^2.2.3",
+    "apollo-boost": "^0.1.28",
+    "graphql": "^14.1.1",
     "react": "^16.8.2",
+    "react-apollo": "^2.4.1",
     "react-dom": "^16.8.2",
+    "react-dots-loader": "^1.1.4",
+    "react-flexview": "^4.0.3",
+    "react-rotating-text": "^1.2.1",
     "react-scripts": "2.1.5",
+    "react-with-styles": "^3.2.1",
+    "react-with-styles-interface-aphrodite": "^5.0.1",
     "typescript": "3.3.3"
   },
   "scripts": {
@@ -26,5 +35,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "proxy": "http://localhost:4000"
 }
